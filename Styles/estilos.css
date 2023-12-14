@@ -1,19 +1,25 @@
 h1{
-    text-align: center;
     color: rgb(14, 21, 26);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color:  lightgrey;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 4em;
 }
 h2{
     color: rgb(31, 46, 56);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-family: Verdana, sans-serif;
 }
 h3{
-    color: rgb(30, 59, 78);
-    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(240, 46, 46);
+    font-size: 2em
 }
+
 p{
     color: rgb(26, 22, 58);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 body{
     background-color: #A9B05B;
@@ -28,6 +34,7 @@ div{
 }
 .main-content {
     margin: auto;
+    padding: 50px 50px 50px 50px;
     background-color: #7A7D5A;
     width: 95%;
     height: 95%;
@@ -36,12 +43,13 @@ div{
 .links{
     color: #494A41;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    
-}
+    text-decoration:none;
+    }
+
 #u-list {
     list-style-type:square;
+    text-decoration: wavy;
 }
 img:hover {
-    border-radius: 5%;    
+    border-radius: 15%;    
 }
