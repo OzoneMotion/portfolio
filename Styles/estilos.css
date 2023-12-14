@@ -16,26 +16,32 @@ p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-color: rgb(185, 245, 200);
+    background-color: #A9B05B;
     cursor:-webkit-grabbing;
 }
 div{
-    background-color: blanchedalmond;
-    padding: 10px 30px;
+    margin: auto;
+    background-color: #ecf3a1;
+    padding: 50px 50px 50px 50px;
     border: 2px solid black;
-    margin: 10px 20px 80px 20px;
+    margin: 10px 10px 10px 10px;
 }
 .main-content {
-    background-color: rgb(218, 231, 31);
+    margin: auto;
+    background-color: #7A7D5A;
     width: 95%;
     height: 95%;
     overflow: hidden;
 }
 .links{
-    color: blueviolet;
+    color: #494A41;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    
 }
 #u-list {
-    list-style-type: armenian;
-
+    list-style-type:square;
+}
+img:hover {
+    border-radius: 5%;    
 }
